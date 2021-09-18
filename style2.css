@@ -1,0 +1,5 @@
+@media(max-width: 774px){
+    section .card{
+      max-width: 150vh;
+  }
+  }

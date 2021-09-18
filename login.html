@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body >
+    <nav id="top1" class="navbar navbar-expand-sm navbar-light  " style="background-color: #e60000 ; margin-bottom: 40px;">   
+        <div class="container-fluid">
+            <a class="navbar-brand" href="top1">
+                <!---<img src= "blue solid.png" alt="" max-width="100%" height="24"> --->
+                <p style="color: white;font-size: 35px;">SEMGETHELP</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="navbar-item" style="padding: 0px 14px;">
+                        <a href="index.html" class="nav-link nav_size"
+                            style="color: rgb(255, 255, 255); filter: brightness(5); font-size: 20px; ">Home</a>
+    
+                    </li>
+                    <li class="navbar-item " style="padding: 0px 14px;" >
+                        <a href="#about" class="nav-link nav_size"
+                            style="color: white; filter: brightness(2); font-size: 20px; ">Help</a>
+    
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+      </nav> 
+    <h1>Enter your Details :</h1> 
+    <i class="bi bi-code-slash"></i>
+    <section>
+    <div class="Login">
+        <h2>Login</h2>
+        <p> * marked boxes are compulsary to fill </p>
+        <form> 
+            <label for="fname">First Name :  *</label>
+            <input type="text" name="fname" id="fname" placeholder="Soumyadip" required size=20><br><br>
+            <label for="lname">Last Name :  *</label>
+            <input type="text" name="lname" id="lname" placeholder="Bhattacharjee" required><br><br>
+            <label for="username">Username :  *</label>
+            <input type="text" name="username" id="username" placeholder="Suvam02" required><br><br>
+            <label for="fname">Password :  *</label>
+            <input type="password" name="password" id="fname" placeholder="password" maxlength=10 required>
+        </form> 
+    </div>
+
+    <div class="Signup">
+        <h2>Sign Up</h2>
+        <p>* marked boxes are compulsary to fill</p>
+        <form> 
+            <label for="fname">First Name :</label>
+            <input type="text" name="fname" id="fname" placeholder="Soumyadip" required size=20><br><br>
+            <label for="lname">Last Name :</label>
+            <input type="text" name="lname" id="lname" placeholder="Bhattacharjee" required><br><br>
+            <label for="username">Username :</label>
+            <input type="text" name="username" id="username" placeholder="Suvam02" required><br><br>
+            <label for="email">E-mail : &nbsp&nbsp &nbsp  </label>
+            <input type="email" name="email" id="fname" placeholder="xyz123@gmail.com" size=30 required><br><br>
+            <label for="gender">Gender :</label>
+            <section>
+            <input type="radio" name="gender" id="male" value="male">Male<br>
+            <input type="radio" name="gender" id="female" value="female">Female<br>
+            <input type="radio" name="gender" id="others" value="others">others<br>
+            </section>
+            <label for="dob">Date of Birth :</label>
+            <input type="datetime-local" >
+        </form>    
+    </div>
+</section>
+
+    <!------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
